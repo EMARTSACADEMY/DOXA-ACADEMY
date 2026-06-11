@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Mon Site Stylisé</title>
+    <!-- Le style CSS commence ici -->
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #f0f4f8;
+            color: #333;
+            max-width: 600px;
+            margin: 40px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #0066cc;
+        }
+        a {
+            color: #ff6600;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        img {
+            max-width: 100%;
+            border-radius: 4px;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Bienvenue sur mon site stylisé !</h1>
+    <p>Ce site utilise du CSS pour modifier les couleurs, les polices et la mise en page.</p>
+    
+    <!-- Exemple de lien -->
+    <p>Visitez le site officiel de <a href="https://github.com" target="_blank">GitHub</a>.</p>
+    
+    <!-- Exemple d'image externe -->
+    <img src="https://picsum.photos" alt="Image d'illustration aléatoire">
+</body>
+</html>
